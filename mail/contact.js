@@ -13,7 +13,6 @@ $(function () {
 
             $this = $("#sendMessageButton");
             $this.prop("disabled", true);
-
             $.ajax({
                 url: "contact.php",
                 type: "POST",
